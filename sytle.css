@@ -1,0 +1,95 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("backround.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 500px;
+}
+h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.582);      /* Warna latar belakang */
+    padding: 15px;              /* Ruang di sekitar teks */
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 450px;
+    
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    size: 50px;
+    
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.582);  
+    padding: 15px;              
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 450px;
+}
+h5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.582);  
+    padding: 15px;              
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 450px;
+}
+p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(255, 255, 255, 0.582);  
+    padding: 15px;              
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 450px;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsla(0, 0%, 0%, 0.637);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+.navbar {
+    display: flex;               /* Mengaktifkan Flexbox */
+    justify-content: center;     /* Memusatkan item secara horizontal */ /* Warna latar belakang navbar */
+    padding: 10px;              /* Ruang di dalam navbar */
+}
+.img_deg{
+    float: left;
+}
